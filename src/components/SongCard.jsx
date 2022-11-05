@@ -51,7 +51,7 @@ const SongCard = ({ song, isPlaying, activeSong, data, i }) => {
             to={
               song.artists
                 ? `/artists/${song?.artists[0]?.adamid}`
-                : "/top-artists"
+                : '/top-artists'
             }
           >
             {song.subtitle}
