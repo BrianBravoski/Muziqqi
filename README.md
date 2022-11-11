@@ -1,136 +1,47 @@
-# Project Lyrics
+<h1 align="center">READ ME</h1>
 
-Develop an elegant React.js Music Application. 
+<br />
 
-Check out the complete project requirements [here](https://docs.google.com/document/d/13PeFwRlPEhMw_HPyrIrInvQuKaVWnpNmcv-y3NA208s/edit?usp=sharing)
+![Contributors][contributors-shield]
 
-# Contributing
+<div align="center">
+  <a href="https://github.com/BrianBravoski/Muziqqi">
+    <img src="src/assets/favicon.ico" alt="Logo" width="80" height="80">
+  </a>
 
-When contributing to this repository, please first discuss the change you wish to make via issue.
-Please note we have a [code of conduct](CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
-
-
-## System Requirements
-
-To get started with development, you need to install few tools
-
-1. git 
-   
-   `git` version 2.13.1 or higher. Download [git](https://git-scm.com/downloads) if you don't have it already.
-
-   To check your version of git, run:
-
-   ```shell
-    git --version
-   ```
-
-2. node 
-   
-   `node` version 16.15.1 or higher. Download [node](https://nodejs.org/en/download/) if you don't have it already.
-
-   To check your version of node, run:
-
-   ```shell
-    node --version
-   ```
-
-3. npm
-  
-   `npm` version 5.6.1 or higher. You will have it after you install node.
-
-   To check your version of npm, run:
-
-   ```shell
-    npm --version
-   ```
-
-## Setup
-
-To set up a development environment, please follow these steps:
-
-1. Clone the repo
-
-   ```shell
-    git clone https://github.com/JavaScript-Mastery-PRO/project1_team4_repository.git
-   ```
-
-2. Change directory to the project directory
-
-    ```shell
-    cd project1_team4_repository
-    ```
-
-3. Install the dependencies
-   
-    ```shell
-     npm install
-    ```
-
-    If you get an error, please check the console for more information.
-
-    If you don't get an error, you are ready to start development.
-
-4. Run the app
-   
-    ```shell
-    npm run dev
-    ```
-
-    Project will be running in the browser.
-
-    Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-## Issues
-
-You've found a bug in the source code, a mistake in the documentation or maybe you'd like a new feature? You can help us by [submitting an issue on GitHub](https://github.com/orgs/JavaScript-Mastery-PRO/projects/8). Before you create an issue, make sure to search the issue archive -- your issue may have already been addressed!
-
-Please try to create bug reports that are:
-
-- _Reproducible._ Include steps to reproduce the problem.
-- _Specific._ Include as much detail as possible: which version, what environment, etc.
-- _Unique._ Do not duplicate existing opened issues.
-- _Scoped to a Single Bug._ One bug per report.
+<h3 align="center">Muziqqi</h3>
 
 
-## Pull Request
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-There are 2 main work flows when dealing with pull requests:
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-* Pull Request from a [forked repository](https://help.github.com/articles/fork-a-repo)
-* Pull Request from a branch within a repository
+Muziqii is a web application that is built upon Shazam Core APi  from RapidApis. The main function of the website is to allow users to see the various songs that are trending worldwide, allow users to see top artists and song details, including the lyrics.
+The website also shows which songs are trending in the user's country with the use of ge0ipfy API.
+The web application also includes a music player with pause, play rewind and shuffle features. The song can aksi be scrubbed with a slider
 
-Here we are going to focus on 2. Creating a Topical Branch:
+The link is https://muziqqi.netlify.app
+ 
+### Built With
+
+This section shows the major frameworks and libraries used in the creation of the project.
+
+* [![Next][next.js]][next-url]
+* [![React][React.js]][React-url]
+* [![Tailwind][Tailwind.css]][Tailwind-url]
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
-1. First, we will need to create a branch from the latest commit on master. Make sure your repository is up to date first using
-
-   ```bash
-    git pull origin main
-   ```
-
-   *Note:* `git pull` does a `git fetch` followed by a `git merge` to update the local repo with the remote repo. For a more detailed explanation, see [this stackoverflow post](http://stackoverflow.com/questions/292357/whats-the-difference-between-git-pull-and-git-fetch).
-
-2. To create a branch, use `git checkout -b <new-branch-name> [<base-branch-name>]`, where `base-branch-name` is optional and defaults to `main`. 
-   
-   Use a standard convention for branch names. For example, `<your-name>-dev`. It will be easier to track your pull requests if you use this convention.
-   
-   I'm going to create a new branch called `jsm-dev` from the `main` branch and push it to github.
-
-   ```bash
-    git checkout -b jsm-dev main
-    git push origin jsm-dev
-   ```
-
-3. To create a pull request, you must have changes committed to your new branch.
-
-4. Go to [Pull Requests](https://github.com/JavaScript-Mastery-PRO/project1_team4_repository/pulls) and click on the `New Pull Request` button.
-
-5. Select the `main` branch as the `base` branch and the `jsm-dev` branch as the `compare` branch.
-
-6. Follow the template and fill in the proper information for the pull request.
-
-7. Click on the `Submit` button.
-
-8. You have successfully created a pull request. Now wait for mentor approval. Once approved, you can merge the pull request.
-
-#
+<!--markdown Links-->
+[contributors-shield]: https://img.shields.io/github/contributors/BrianBravoski/gym_web.svg?style=for-the-badge
+<!-- [product-screenshot]: src/assets/images/Chuma-Gym.png -->
+[next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[next-url]: https://nextjs.org/
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Tailwind.css]: https://img.shields.io/badge/Tailwind-20232A?style=for-the-badge&logo=tailwindcss&logoColor=61DAFB
+[Tailwind-url]: https://tailwindcss.com
