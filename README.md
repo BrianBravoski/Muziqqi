@@ -18,8 +18,8 @@
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
 Muziqii is a web application that is built upon Shazam Core APi  from RapidApis. The main function of the website is to allow users to see the various songs that are trending worldwide, allow users to see top artists and song details, including the lyrics.
-The website also shows which songs are trending in the user's country with the use of ge0ipfy API.
-The web application also includes a music player with pause, play rewind and shuffle features. The song can aksi be scrubbed with a slider
+The website also shows which songs are trending in the user's country with the use of geoIpfy API.
+The web application also includes a music player with pause, play rewind and shuffle features. The song can also be scrubbed with a slider
 
 The link is https://muziqqi.netlify.app
  
